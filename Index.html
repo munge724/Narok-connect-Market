@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLAVA CATERING | Events & Catering Services in Narok</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fff; color: #333; line-height: 1.6; }
+    
+    header {
+      background: #8B0000; 
+      color: #fff; 
+      padding: 25px 10%;
+      text-align: center;
+    }
+    header img { width: 100px; height: 100px; border-radius: 50%; background: #fff; padding: 8px; margin-bottom: 10px; }
+    header h1 { font-size: 28px; color: #FFD700; letter-spacing: 2px; }
+    header p { font-size: 16px; }
 
+    .hero {
+      background: url('https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070') center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 10%;
+    }
+    .hero h2 { font-size: 40px; margin-bottom: 10px; text-shadow: 2px 2px 4px #000; }
+    .hero p { font-size: 18px; text-shadow: 1px 1px 3px #000; }
+
+    section { padding: 60px 10%; text-align: center; }
+    section h2 { color: #8B0000; font-size: 32px; margin-bottom: 10px; }
+    
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card {
+      background: #f8f8f8; padding: 25px; border-radius: 10px; 
+      border-top: 4px solid #8B0000; text-align: left;
+    }
+    .card h3 { color: #8B0000; margin-bottom: 10px; }
+    .card ul { list-style: none; padding-left: 0; }
+    .card ul li { margin: 8px 0; }
+    .card ul li:before { content: "✓ "; color: #FFD700; font-weight: bold; }
+
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 30px; }
+    .gallery img { width: 100%; border-radius: 10px; height: 220px; object-fit: cover; }
+
+    footer {
+      background: #222; color: #fff; padding: 30px 10%; text-align: center;
+    }
+    footer a { color: #FFD700; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER - NO NAVIGATION -->
+  <header>
+    <img src="logo.png" alt="FLAVA CATERING Logo">
+    <h1>FLAVA CATERING</h1>
+    <p>Narok, Kenya</p>
+  </header>
+
+  <!-- HERO - NO BUTTON -->
+  <section class="hero" id="home">
+    <h2>Delicious Food. Memorable Events.</h2>
+    <p>We bring flavor and class to your weddings, birthdays, corporate events & more in Narok and beyond.</p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Full catering & events equipment for any occasion</p>
+    <div class="services">
+      <div class="card">
+        <h3>Catering Services</h3>
+        <ul>
+          <li>Weddings & Ruracio</li>
+          <li>Corporate Events</li>
+          <li>Birthdays & Parties</li>
+          <li>Funerals & Church Events</li>
+          <li>Buffet & Plated Service</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Events Equipment Hire</h3>
+        <ul>
+          <li>Tents - All Sizes</li>
+          <li>Chairs & Tables</li>
+          <li>Seats with Covers</li>
+          <li>Cutlery & Crockery</li>
+          <li>Decor & Draping</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Full Event Setup</h3>
+        <ul>
+          <li>Sound System</li>
+          <li>Stage & Lighting</li>
+          <li>Waiters & Chefs</li>
+          <li>Transport & Logistics</li>
+          <li>Venue Setup & Cleanup</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" style="background:#f8f8f8;">
+    <h2>Our Gallery</h2>
+    <p>A taste of what we do</p>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070" alt="Wedding Setup">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070" alt="Food Service">
+      <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?q=80&w=2070" alt="Event Tent">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Let’s make your event special</p>
+    <p><b>Location:</b> Narok, Kenya</p>
+    <p><b>Phone/WhatsApp:</b> 0741437977</p>
+    <p><b>Contact Person:</b> James Munge</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 FLAVA CATERING. All Rights Reserved.</p>
+    <p>Based in Narok, Kenya | Catering + Events Equipment</p>
+  </footer>
+
+</body>
+  </html>
